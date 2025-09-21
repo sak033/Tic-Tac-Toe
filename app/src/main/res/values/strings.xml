@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="default_web_client_id">YOUR‑ID‑HERE</string>
+
+</resources>

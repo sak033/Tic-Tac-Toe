@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="6dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/tvOpponent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chris Hamilton"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="05.25.2022"
+        android:textSize="12sp"
+        android:textColor="#777777" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WON"
+        android:textAlignment="textEnd"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_green_dark" />
+</LinearLayout>
